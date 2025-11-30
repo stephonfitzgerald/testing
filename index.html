@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stephon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Stephon</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#media">Media</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Calm, curious, building with intention. This is my little corner of the web.</p>
+    </section>
+
+    <section id="media">
+      <h2>Media</h2>
+      <p>Drop in links to tracks, mixes, or visuals here.</p>
+      <ul>
+        <li><a href="#">Example track 1</a></li>
+        <li><a href="#">Example track 2</a></li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Brief descriptions of what I’m building and exploring.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Stephon</p>
+  </footer>
+
+  <script>
+    // Keep the year in the footer correct
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
