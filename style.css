@@ -264,3 +264,34 @@ footer {
   opacity: 0.6;
   font-size: 0.9rem;
 }
+/* Subtle footer entrance animation */
+.footer-line {
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  opacity: 0.55;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+
+  /* animation setup */
+  animation: footerFadeUp 700ms ease-out 120ms both;
+}
+
+@keyframes footerFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+    filter: blur(0.4px);
+  }
+  to {
+    opacity: 0.55;
+    transform: translateY(0);
+    filter: blur(0px);
+  }
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .footer-line {
+    animation: none;
+  }
+}
