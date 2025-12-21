@@ -273,7 +273,7 @@ footer {
   text-transform: lowercase;
 
   /* animation setup */
-  animation: footerFadeUp 700ms ease-out 120ms both;
+  animation: footerFadeUp 969ms ease-out 120ms both;
 }
 
 @keyframes footerFadeUp {
