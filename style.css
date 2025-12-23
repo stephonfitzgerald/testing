@@ -58,13 +58,6 @@ nav a:hover {
   color: #050505;
 }
 
-/* Hero section */
-.hero {
-  padding: 2.5rem 0 2rem;
-  border-bottom: 1px solid #161616;
-  margin-bottom: 2rem;
-}
-
 .hero-tag {
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -156,15 +149,6 @@ li + li {
 
 a {
   color: #e4e4ff;
-}
-
-/* Footer */
-footer {
-  margin-top: 3rem;
-  font-size: 0.8rem;
-  color: #a0a0a0;
-  border-top: 1px solid #181818;
-  padding-top: 1rem;
 }
 
 /* Mobile tweaks */
