@@ -295,3 +295,22 @@ footer {
     animation: none;
   }
 }
+/* Rainbow text with yellow centered */
+.rainbow {
+  display: inline-block;          /* helps clipping behave consistently */
+  color: #ffe600;                 /* fallback if gradient-clip isn't supported */
+
+  background-image: linear-gradient(90deg,
+    #ff2a2a 4%,     /* red */
+    #ff8a00 17%,    /* orange */
+    #ffe600 42%,    /* yellow (start of center band) */
+    #ffe600 64%,    /* yellow (end of center band) */
+    #00d26a 72%,    /* green */
+    #00b7ff 83%,    /* blue/cyan */
+    #6a00ff 96%    /* violet */
+  );
+
+  -webkit-background-clip: text; /* Safari/Chrome */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
