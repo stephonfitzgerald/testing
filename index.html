@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stephon</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="logo rainbow">TESTING WEBSITE</div>
+    <div class="logo rainbow">TESTING</div>
     <nav>
     </nav>
   </header>
 
   <main>
+    <!-- New hero section -->
+    <section id="hero" class="hero">
+      <p class="hero-tag"></p>
+      <h1><br></h1>
+      <p class="hero-body">
+      </p>
+      <div class="hero-actions">
+      </div>
+    </section>
+
+    <section id="about">
+      <h2></h2>
+      <p>
+      </p>
+    </section>
   </main>
 
   <footer>
+    <p class="footer-line">
+  timing. effort. impact.
+</p>
+    <p>© <span id="year"></span> StephonFitzgerald</p>
   </footer>
 
+  <script>
+    // Keep the year in the footer correct
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
